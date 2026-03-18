@@ -1,2 +1,2 @@
-# tpn-automation
-Automation framework for TPN (Third‑Party Notices) generation, processing, and validation
+# TPN License Intelligence Dashboard
+Updated README with testing and contributing sections.
