@@ -1,1 +1,39 @@
 cff-version: 1.2.0
+cff-version: 1.2.0
+message: "If you use any of these datasets or related tools, please cite using the references below."
+
+title: "Unified Citation Metadata for Devashri Datta’s Research Datasets"
+
+authors:
+  - family-names: Datta
+    given-names: Devashri
+    affiliation: "Independent Researcher – Software Compliance & AI Governance"
+    orcid: "https://orcid.org/0009-0000-6637-832X"
+
+references:
+  - type: dataset
+    title: "Automated License Intelligence and Compliance Risk Analysis from Third Party Notices Documents"
+    authors:
+      - family-names: Datta
+        given-names: Devashri
+    year: 2026
+    doi: "10.5281/zenodo.19099832"
+    url: "https://doi.org/10.5281/zenodo.19099832"
+
+  - type: dataset
+    title: "Sample Third Party Notice (TPT) Compliance Dataset"
+    authors:
+      - family-names: Datta
+        given-names: Devashri
+    year: 2026
+    doi: "10.5281/zenodo.19152620"
+    url: "https://doi.org/10.5281/zenodo.19152620"
+
+  - type: dataset
+    title: "AIVEX + TMBOM: Practical Governance of AI/ML Exploitability and Behavioral Risks"
+    authors:
+      - family-names: Datta
+        given-names: Devashri
+    year: 2026
+    doi: "10.21227/7rc0-vb05"
+    url: "https://doi.org/10.21227/7rc0-vb05"
