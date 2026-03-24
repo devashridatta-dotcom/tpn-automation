@@ -1,37 +1,24 @@
-# Automated TPN License Intelligence and Compliance Analysis
+# TPN Automation
+Automated License Intelligence and Compliance Risk Analysis from Third‑Party Notices (TPN) Documents
 
-This repository contains the end-to-end automation pipeline for extracting, analyzing, and generating compliance insights from Third Party Notices (TPN) documents.  
-The workflow integrates AI-driven license detection, compliance risk scoring, and structured reporting.
-
-This codebase accompanies the research paper archived on Zenodo and provides reproducible steps for validation.
+TPN Automation extracts, analyzes, and classifies license information from Third‑Party Notices (TPN) documents. It helps compliance, legal, and engineering teams process incoming vendor TPN PDFs by identifying components, normalizing license names, scoring compliance risks, and producing structured output for audits.
 
 ---
 
-## Research Paper and DOI
+## 🚀 Features
 
-This repository is linked to the publicly archived research artifact hosted on Zenodo.
-
-DOI: https://doi.org/10.5281/zenodo.19099832  
-Version: v1
-
----
-
-## Features
-
-- Automated license extraction from TPN text  
-- SPDX and CycloneDX aligned normalization  
-- Compliance risk scoring for third-party components  
-- Structured output reports (JSON and CSV)  
-- AI-assisted pattern recognition for ambiguous license text  
-- Fully reproducible workflow aligned with the research paper  
+- Parse PDF‑based TPN files using text extraction
+- Extract component names, versions, and license text
+- Normalize license names using SPDX identifiers
+- Perform policy‑based compliance risk scoring
+- Export structured reports (JSON, CSV, DataFrames)
+- Lightweight, extensible NLP‑based extraction pipeline
 
 ---
 
-## How to Reproduce the Results
+## 📦 Installation
 
-Follow the steps below to reproduce the analysis from the research paper.
+Clone the repository and install locally:
 
-### 1. Clone the repository
 ```bash
-git clone https://github.com/devashridatta-dotcom/tpn-automation.git
-cd tpn-automation
+pip install .
