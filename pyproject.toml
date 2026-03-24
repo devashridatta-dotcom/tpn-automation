@@ -3,17 +3,23 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tpn-automation"
+name = "tpn_automation"
 version = "1.0.0"
-authors = [
-  { name="Devashri Datta" }
-]
 description = "Automated License Intelligence and Compliance Risk Analysis from TPN documents"
+authors = [
+  { name = "Devashri Datta" }
+]
 readme = "README.md"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
 dependencies = [
   "pypdf",
-  "spacy",
   "pandas",
-  "numpy"
+  "numpy",
+  "spacy"
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
+``
