@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tpn-automation"
+version = "1.0.0"
+authors = [
+  { name="Devashri Datta" }
+]
+description = "Automated License Intelligence and Compliance Risk Analysis from TPN documents"
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+  "pypdf",
+  "spacy",
+  "pandas",
+  "numpy"
+]
