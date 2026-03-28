@@ -1,5 +1,10 @@
-from .extractor import main as extractor_main
-
 def main():
-    print("Running TPN Automation Tool...")
-    extractor_main()
+    print("TPN Automation is running...")
+
+    # TODO: Add real processing logic here once functions are identified
+    # Example:
+    # from .extractor import extract_licenses
+    # data = extract_licenses()
+    # print(data)
+
+    print("Main entry point executed successfully.")
