@@ -1,0 +1,11 @@
+[project]
+name = "tpn-automation"
+version = "0.1.0"
+description = "Automated TPN parsing, license extraction, normalization, and risk scoring."
+authors = [{ name="Devashri Datta" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
