@@ -1,0 +1,89 @@
+###########################
+# Python
+###########################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Poetry
+poetry.lock
+.poetry/
+.cache/pypoetry/
+
+# Pip
+pip-wheel-metadata/
+pip-log.txt
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+###########################
+# Jupyter / Notebook
+###########################
+.ipynb_checkpoints/
+*.ipynb
+
+###########################
+# VS Code / Editors
+###########################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+###########################
+# Logs / Dumps
+###########################
+*.log
+*.out
+*.err
+
+###########################
+# OS-specific
+###########################
+.DS_Store
+Thumbs.db
+
+###########################
+# Temporary files
+###########################
+*.tmp
+*~
+*.bak
+*.old
+
+###########################
+# Data / Outputs
+###########################
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
+*.zip
+*.tar.gz
+
+# Allow sample files inside data/
+!data/**/*.xlsx
+!data/**/*.pdf
+!data/**/*.csv
+
+###########################
+# Local configs
+###########################
+.env
+.env.*
+*.local
