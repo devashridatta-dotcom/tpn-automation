@@ -1,14 +1,17 @@
-[project]
-name = "tpn-automation"
+[tool.poetry]
+name = "tpn_automation"
 version = "0.1.0"
 description = "Automated TPN parsing, license extraction, normalization, and risk scoring."
-authors = [{ name="Devashri Datta" }]
-readme = "README.md"
-requires-python = ">=3.9"
-dependencies = []
+authors = ["Your Name <your.email@example.com>"]
 
-[tool.setuptools.packages.find]
-where = ["src"]
+# THIS IS THE IMPORTANT FIX
 packages = [
-  { include = "tpn_automation", from = "src" }
+    { include = "tpn_automation", from = "src" }
 ]
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
